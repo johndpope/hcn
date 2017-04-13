@@ -36,14 +36,14 @@ python3 interact.py
 
 ![](https://raw.githubusercontent.com/voicy-ai/DialogStateTracking/master/images/hcn-interaction.png)
 
-
-## Paper
-
-
-[Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning](https://arxiv.org/abs/1702.03274)
-
-
-## TODO
+### TODO
 
 - [ ] Train on OOV data
 - [ ] Apply Reinforcement Learning (Policy Gradients)
+
+
+## Paper
+
+[Hybrid Code Networks](https://arxiv.org/abs/1702.03274) : practical and efficient end-to-end dialog control with supervised and reinforcement learning
+
+End-to-end learning of recurrent neural networks (RNNs) is an attractive solution for dialog systems; however, current techniques are data-intensive and require thousands of dialogs to learn simple behaviors. We introduce Hybrid Code Networks (HCNs), which combine an RNN with domain-specific knowledge encoded as software and system action templates. Compared to existing end-to-end approaches, HCNs considerably reduce the amount of training data required, while retaining the key benefit of inferring a latent representation of dialog state. In addition, HCNs can be optimized with supervised learning, reinforcement learning, or a mixture of both. HCNs attain state-of-the-art performance on the bAbI dialog dataset, and outperform two commercially deployed customer-facing dialog systems.
