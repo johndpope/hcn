@@ -1,5 +1,8 @@
 # Hybrid Code Networks
 
+
+![](https://img.shields.io/badge/tensorflow-1.0.1-green.svg) ![](https://img.shields.io/badge/gensim-2.0.0-blue.svg)
+
 ![](https://raw.githubusercontent.com/voicy-ai/DialogStateTracking/master/images/hcn-block-diagram.png)
 
 
@@ -37,4 +40,10 @@ python3 interact.py
 ## Paper
 
 
-- [Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning](https://arxiv.org/abs/1702.03274)
+[Hybrid Code Networks: practical and efficient end-to-end dialog control with supervised and reinforcement learning](https://arxiv.org/abs/1702.03274)
+
+
+## TODO
+
+- [ ] Train on OOV data
+- [ ] Apply Reinforcement Learning (Policy Gradients)
