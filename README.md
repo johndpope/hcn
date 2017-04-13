@@ -9,8 +9,8 @@
 ```bash
 # install prerequisites
 sudo -H pip3 install -r requirements.txt
-cd data/ # we are inside 'src/hcn/data'
-bash download.sh
+cd data/ 
+bash get_w2c_src.sh
 ```
 
 ## Execution
